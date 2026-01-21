@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<h2>Products</h2>
+
+<select onchange="sortProducts(this.value)">
+  <option value="">Sort By</option>
+  <option value="low">Price Low to High</option>
+  <option value="high">Price High to Low</option>
+</select>
+
+<div id="products"></div>
+
+<script src="product.js"></script>
+</body>
+</html>
